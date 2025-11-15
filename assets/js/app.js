@@ -281,13 +281,13 @@ const adjudicators = [
     new Adjudicator("Farhan Nasir Nirnoy", "Core Adjudicator"),
     new Adjudicator("Jasim Qureshi", "Core Adjudicator"),
     new Adjudicator("Abu Hurairah Bishnoy", "Core Adjudicator"),
-    new Adjudicator("Tama Chowdhury", "Core Adjudicator"),
+
 ];
 
 const motions = [
-    new Motion("Round 1", "এই সংসদ মনে করে কোটা সংস্কার আন্দোলনের চেতনা ভূলন্ঠিত হয়েছে ৷", ""),
-    new Motion("Round 2", "এই সংসদ (জাতিসংঘ) গাজার ভূখন্ডে ফিলিস্তিন কর্তৃপক্ষের কর্তৃককে সমর্থন করে ৷", ""),
-    new Motion("Round 3", "এই সংসদ খেলোয়াড়দের রাজনীতিতে অংশগ্রহণ সমর্থন করে না ।", ""),
+    new Motion("Round 1", "এই সংসদ মনে করে কোটা সংস্কার আন্দোলনের চেতনা ভূলন্ঠিত হয়েছে৷", ""),
+    new Motion("Round 2", "এই সংসদ (জাতিসংঘ) গাজার ভূখন্ডে ফিলিস্তিন কর্তৃপক্ষের কর্তৃককে সমর্থন করে৷", ""),
+    new Motion("Round 3", "এই সংসদ খেলোয়াড়দের রাজনীতিতে অংশগ্রহণ সমর্থন করে না।", ""),
     new Motion("Quarter", "এই সংসদ (বাংলাদেশ), এক প্রার্থীর একাধিক সংসদীয় আসনে নির্বাচন করাকে সমর্থন করে না।", ""),
     new Motion("Semi-Final", "পরীক্ষার চাপ শিক্ষার্থীদের মানসিক স্বাস্থ্যের জন্য ক্ষতিকর।", ""),
     new Motion("Final Round", "এই সংসদ মনে করে, কৃত্রিম বুদ্ধিমত্তা (AI) মানব সভ্যতার জন্য হুমক হতে পারে।", ""),
