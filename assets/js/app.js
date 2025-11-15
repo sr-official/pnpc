@@ -336,7 +336,7 @@ const debates = [
     new Debate("Quarter", "The Facists (ENG)", "The Nexus (BTE)", "Room ", "-", "-", "Opp"),
     // new Debate("Semi-Final", "Warriors (LLB)", "Trio of Logic (BTE)", "Room ", "-", "-", "-"),
     // new Debate("Semi-Final", "Ideology Warriors(JRN)", "The Nexus (BTE)", "Room ", "-", "-", "-"),
-    new Debate("Semi-Final", "Warriors", "Ideology Warriors", "Room 310", "2;15 PM", "Farhan Nasir Nirnoy", "-"),
+    new Debate("Semi-Final", "Warriors", "Ideology Warriors", "Room 310", "2;15 PM", "Farhan Nasir", "-"),
     new Debate("Semi-Final", "Trio of Logic", "The Nexus", "Room 215", "2:15 PM", "-", "-"),
     new Debate("Final Round", "-", "-", "Room ", "-", "-", "-"),
 ];
