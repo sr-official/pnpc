@@ -337,7 +337,13 @@ const debates = [
 
     new Debate("Semi-Final", "Warriors", "Ideology Warriors", "Room 310", "2;15 PM", "Farhan Nasir Nirnoy", "Opp"),
     new Debate("Semi-Final", "Trio of Logic", "The Nexus", "Room 215", "2:15 PM", "Mizanul Haque", "Opp"),
-    new Debate("Final Round", "Ideology Warriors", "The Nexus", "Room 310", "4:00 pM", `Chief Judge: <br>Kazi Arfat Joint Secretary,<br> BDF & Drishty Chittagong`, "-"),
+    new Debate("Final Round", "Ideology Warriors", "The Nexus", "Room 310", "4:00 pM", `Chief Judges: 
+        <br>Kazi Arfat Joint Secretary,
+        <br> BDF & Drishty Chittagong
+        <br> <br>
+        Prof. Mr. Mainul Hasan Chowdhury
+        <br>Dean, Faculties of Humanities, Social Sciences & Law,
+        <br>Port City Inernational University `, "-"),
 ];
 
 
