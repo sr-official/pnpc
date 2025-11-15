@@ -97,31 +97,6 @@ const teams = [
     new Team("Justice Seekers (LLB)", 226, 226.5, 0, 0, 0, 0),
     new Team("The Nexus (BTE)", 229, 235, 232, 233, 225, 0),
     new Team("Undertop (LLB)", 230, 227, 229, 0, 0, 0),
-
-	// new Team("Mindscript (BBA)", 0, 0, 0, 0, 0, 0),
-    // new Team("The Infinity Achiever (BBA)", 0, 0, 0, 0, 0, 0),
-    // new Team("Warriors (LLB)", 0, 0, 0, 0, 0, 0),
-    // new Team("Treble Trouble (LLB)", 0, 0, 0, 0, 0, 0),
-    // new Team("NSA Gladiators (BBA)", 0, 0, 0, 0, 0, 0),
-    // new Team("Thinker Alliance (JRN)", 0, 0, 0, 0, 0, 0),
-    // new Team("JB Empire (BBA)", 0, 0, 0, 0, 0, 0),
-    // new Team("The Rationalist (BTE)", 0, 0, 0, 0, 0, 0),
-    // new Team("Paradox (JRN)", 0, 0, 0, 0, 0, 0),
-    // new Team("Debate Crew(ENG)", 0, 0, 0, 0, 0, 0),
-    // new Team("Galaxy (BBA)", 0, 0, 0, 0, 0, 0),
-    // new Team("Think Thank (LLB)", 0, 0, 0, 0, 0, 0),
-    // new Team("Skylark (ENG)", 0, 0, 0, 0, 0, 0),
-    // new Team("Ideology Warriors(JRN)", 0, 0, 0, 0, 0, 0),
-    // new Team("The Facists(ENG)", 0, 0, 0, 0, 0, 0),
-    // new Team("Phoenix (ENG)", 0, 0, 0, 0, 0, 0),
-    // new Team("Echo Verse (BBA)", 0, 0, 0, 0, 0, 0),
-    // new Team("Green Apple(BBA)", 0, 0, 0, 0, 0, 0),
-    // new Team("Trio of Logic (BTE)", 0, 0, 0, 0, 0, 0),
-    // new Team("Purbasha (BFT)", 0, 0, 0, 0, 0, 0),
-    // new Team("Fact Finders(JRN)", 0, 0, 0, 0, 0, 0),
-    // new Team("Justice Seekers (LLB)", 0, 0, 0, 0, 0, 0),
-    // new Team("The Nexus (BTE)", 0, 0, 0, 0, 0, 0),
-    // new Team("Undertop (LLB)", 0, 0, 0, 0, 0, 0),
 ];
 
 const speakers = [
@@ -198,81 +173,6 @@ const speakers = [
     new Speaker("Ashabul Haque Sakib", 77, 74, 76, 0, 0, 0),
     new Speaker("Tazbir Ahmed Sami", 75, 74, 76, 0, 0, 0),
 
-
-
-
-    // new Speaker("Sumaiya Mazumder", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Nadia Khanam", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Maisha Maliha", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Moumita Dasgupta", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Happy Das", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Shahina Sultana Koli", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Sumi", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Oishorjo", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Shihir", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Nahim Islam", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Saima Akter", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Sayeda Taifatul Ferdous", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Nazma Akter", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Abdullah Al Shajid", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Aslam Babu", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Abdullah Al Mohammed", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Tasmin Haque", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Asmam Uddin Chowdhury", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Prithom Paul", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Md Habibur Rahman", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Md Shifat", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Md Al Amin Kayes", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Md SaJidur Rahman Bijoy", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Arman Hossen Asif", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Safa Marwa", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Abu Saleh", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Riduan Haque", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Atik Hossen", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Joy Barua", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Rimon Dey", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Upama Sengupta", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Renesa Chakma", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Snikdha Dhar", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Dipa Chowdhury", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Md Jahid Hasan", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Mosammat Tanjina Akter Chy", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Behestie Akter Reya", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Khadiza Akter", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Nusrat jahan Nishat", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Md Soharaf", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Shefa Ahmed", 0, 0, 0, 0, 0, 0),
-    // new Speaker("", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Asif Mahmud Khan", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Abu Zubayer", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Shahriar Fahmid", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Joyita Ghosh", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Naima Jannat Hamida", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Nazmun Nahar Nijhum", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Sajjad Hosen Rifat", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Tanjina Akther", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Muntasir Shoeb", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Md Tahim Ahamed", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Shahadat Hossain Jayed", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Md Abdulla Al Nahid", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Sahanaz Akter Any", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Etika Jahan Lilika", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Mahin Mahmud Emon", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Md Mustafa Kamal", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Farzana Akter Asha", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Tasnia Salmina", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Sadia Fazana", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Sabikun Nahar Joni", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Jannatul Maowa Sharifa", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Tohidul Islam Adil", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Nusrat Jahan Faria", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Anisha Dey", 0, 0, 0, 0, 0, 0),
-    // new Speaker("MD Sultanul Arfin", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Nazmul Hasan Joy", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Mohima Sultana Masuma", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Athoy Chakraborty", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Ashabul Haque Sakib", 0, 0, 0, 0, 0, 0),
-    // new Speaker("Tazbir Ahmed Sami", 0, 0, 0, 0, 0, 0),
 ];
 
 const adjudicators = [
@@ -518,22 +418,6 @@ function renderResults() {
     });
 }
 
-// Render function
-// function renderNews() {
-//     const container = document.getElementById("newsContainer");
-//     container.innerHTML = "";
-
-//     newsList.forEach(news => {
-//         let card = `
-//             <div class="news-card">
-//                 <h3>${news.title}</h3>
-//                 <p>${news.date}</p>
-//                 <a href="${news.link}" target="_blank">Read Online</a>
-//             </div>
-//         `;
-//         container.innerHTML += card;
-//     });
-// }
 
 // Function to get formatted date like "15 November 2025"
 function getTodayDate() {
