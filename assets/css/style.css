@@ -39,7 +39,7 @@ body {
 }
 
 #sidebar .logo img {
-    width: 100px;
+    width: 130px;
     border-radius: 50%;
 }
 
@@ -291,6 +291,7 @@ body {
    FOOTER
 ============================================ */
 .footer {
+    font-size: 20px;
     margin-top: 30px;
     text-align: center;
     padding: 15px;
