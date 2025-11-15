@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debate Dashboard</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+
+<body>
+
+    <!-- ============================
+         SIDEBAR / MENU
+    ============================= -->
+    <div id="sidebar">
+        <div class="logo">
+            <img src="assets/images/pnpc-logo.jpg" alt="Logo" />
+        </div>
+
+        <ul>
+            <li onclick="showPage('teamPage')">Team</li>
+            <li onclick="showPage('speakerPage')">Speakers</li>
+            <li onclick="showPage('adjPage')">Adjudicators</li>
+            <li onclick="showPage('motionPage')">Motions</li>
+            <li onclick="showPage('debatePage')">Results</li>
+            <!-- <li onclick="showPage('resultPage')">Results</li> -->
+         <li onclick="showPage('newsPage'); renderNews()">Newspaper</li> <!-- UPDATED -->
+        </ul>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <div id="mobileMenuBtn" onclick="toggleSidebar()">☰</div>
+
+    <!-- ============================
+         MAIN CONTENT
+    ============================= -->
+    <div id="main">
+
+        <!-- ============================
+             HOME PAGE
+        ============================= -->
+        <section id="homePage" class="page-section">
+            <h1 class="page-title">Debate Management Dashboard</h1>
+
+            <div class="box-grid">
+                <div class="box" onclick="showPage('teamPage')">Team</div>
+                <div class="box" onclick="showPage('speakerPage')">Speakers</div>
+                <div class="box" onclick="showPage('adjPage')">Adjudicators</div>
+                <div class="box" onclick="showPage('motionPage')">Motions</div>
+                <div class="box" onclick="showPage('debatePage')">Results</div>
+                <!-- <div class="box" onclick="showPage('resultPage')">Results</div> -->
+                <div class="box" onclick="showPage('newsPage'); renderNews()">Newspaper</div>
+            </div>
+
+            <footer class="footer">Prepared by <a href="https://www.facebook.com/groups/pciuplacementcell" target="_blank">PCIU Networking & Placement Cell</a></footer>
+        </section>
+
+        <!-- ============================
+             TEAM PAGE (UPDATED)
+        ============================= -->
+        <section id="teamPage" class="page-section" style="display:none;">
+            <h1 class="page-title">Team Scores</h1>
+
+            <div class="sort-buttons">
+                <button onclick="sortTeams('asc')">Lowest → Highest</button>
+                <button onclick="sortTeams('desc')">Highest → Lowest</button>
+            </div>
+
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>S. L</th>
+                        <th>Name</th>
+                        <th>R1</th>
+                        <th>R2</th>
+                        <th>R3</th>
+                        <th>Quarter</th>
+                        <th>Semi</th>
+                        <th>Final</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="teamTableBody"></tbody>
+            </table>
+        </section>
+
+        <!-- TEAM MODAL -->
+        <!-- <div id="teamModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeTeamModal()">&times;</span>
+                <div id="teamModalBody"></div>
+            </div>
+        </div> -->
+
+        <!-- ============================
+             SPEAKER PAGE
+        ============================= -->
+        <section id="speakerPage" class="page-section" style="display:none;">
+            <h1 class="page-title">Speaker Scores</h1>
+
+            <div class="sort-buttons">
+                <button onclick="sortSpeakers('asc')">Lowest → Highest</button>
+                <button onclick="sortSpeakers('desc')">Highest → Lowest</button>
+            </div>
+
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>S. L</th>
+												<th>Name</th>
+                        <th>R1</th>
+												<th>R2</th>
+												<th>R3</th>
+                        <th>R4</th>
+												<th>R5</th>
+												<th>R6</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="speakerTableBody"></tbody>
+            </table>
+        </section>
+
+        <!-- ============================
+             ADJ PAGE
+        ============================= -->
+        <section id="adjPage" class="page-section" style="display:none;">
+            <h1 class="page-title">Adjudicators</h1>
+
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>S. L</th>
+												<th>Name</th>
+												<th>Position</th>
+                    </tr>
+                </thead>
+                <tbody id="adjTableBody"></tbody>
+            </table>
+        </section>
+
+        <!-- ============================
+             MOTION PAGE
+        ============================= -->
+        <section id="motionPage" class="page-section" style="display:none;">
+            <h1 class="page-title">Motions</h1>
+
+            <div id="motionContainer" class="motion-grid"></div>
+        </section>
+
+        <!-- MOTION MODAL -->
+        <div id="motionModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeMotionModal()">&times;</span>
+                <div id="motionModalBody"></div>
+            </div>
+        </div>
+
+        <!-- ============================
+             DEBATE PAGE
+        ============================= -->
+        <section id="debatePage" class="page-section" style="display:none;">
+            <h1 class="page-title">Results</h1>
+
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Round</th>
+                        <th>Gov Team</th>
+                        <th>Opp Team</th>
+                        <th>Venue</th>
+                        <th>Time</th>
+                        <th>Judge</th>
+                        <th>Winner</th>
+                    </tr>
+                </thead>
+                <tbody id="debateTableBody"></tbody>
+            </table>
+        </section>
+
+        <!-- ============================
+             RESULT PAGE
+        ============================= -->
+        <!-- <section id="resultPage" class="page-section" style="display:none;">
+            <h1 class="page-title">Round Results</h1>
+
+            <div id="resultContainer"></div>
+        </section>
+
+    </div> -->
+
+		<!-- ============================
+     NEWS PAGE
+============================ -->
+				<section id="newsPage" class="page-section" style="display:none">
+						<h1 class="page-title">Newspaper</h1>
+						<div id="newsContainer" class="news-grid"></div>
+				</section>
+
+
+    <!-- ============================
+         JAVASCRIPT LINK
+    ============================= -->
+    <script src="assets/js/app.js"></script>
+
+    <script>
+        // Mobile sidebar toggle
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("open");
+        }
+    </script>
+
+</body>
+</html>
