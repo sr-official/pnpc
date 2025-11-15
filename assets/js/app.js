@@ -285,10 +285,10 @@ const adjudicators = [
 ];
 
 const motions = [
-    new Motion("Round 1", "এই সংসদ মনে করে কোটা সংস্কার আন্দোলনের চেতনা ভূলন্ঠিত হয়েছে৷", ""),
-    new Motion("Round 2", "এই সংসদ (জাতিসংঘ) গাজার ভূখন্ডে ফিলিস্তিন কর্তৃপক্ষের কর্তৃককে সমর্থন করে৷", ""),
-    new Motion("Round 3", "এই সংসদ খেলোয়াড়দের রাজনীতিতে অংশগ্রহণ সমর্থন করে না", ""),
-    new Motion("Quarter", "এই সংসদ (বাংলাদেশ), এক প্রার্থীর একাধিক সংসদীয় আসনে নির্বাচন করাকে সমর্থন করে না।", ""),
+    new Motion("Round 1", "এই সংসদ মনে করে কোটা সংস্কার আন্দোলনের চেতনা ভূলন্ঠিত হয়েছে ৷", ""),
+    new Motion("Round 2", "এই সংসদ (জাতিসংঘ) গাজার ভূখন্ডে ফিলিস্তিন কর্তৃপক্ষের কর্তৃককে সমর্থন করে ৷", ""),
+    new Motion("Round 3", "এই সংসদ খেলোয়াড়দের রাজনীতিতে অংশগ্রহণ সমর্থন করে না ।", ""),
+    new Motion("Quarter", "এই সংসদ (বাংলাদেশ), এক প্রার্থীর একাধিক সংসদীয় আসনে নির্বাচন করাকে সমর্থন করে না ।", ""),
     new Motion("Semi-Final", "পরীক্ষার চাপ শিক্ষার্থীদের মানসিক স্বাস্থ্যের জন্য ক্ষতিকর।", ""),
     new Motion("Final Round", "Coming soon...", ""),
 ];
@@ -336,7 +336,7 @@ const debates = [
     new Debate("Quarter", "The Facists (ENG)", "The Nexus (BTE)", "Room ", "-", "-", "Opp"),
     // new Debate("Semi-Final", "Warriors (LLB)", "Trio of Logic (BTE)", "Room ", "-", "-", "-"),
     // new Debate("Semi-Final", "Ideology Warriors(JRN)", "The Nexus (BTE)", "Room ", "-", "-", "-"),
-    new Debate("Semi-Final", "Warriors", "Ideology Warriors", "Room 310", "2;15 PM", "-", "-"),
+    new Debate("Semi-Final", "Warriors", "Ideology Warriors", "Room 310", "2;15 PM", "Farhan Nasir Nirnoy", "-"),
     new Debate("Semi-Final", "Trio of Logic", "The Nexus", "Room 215", "2:15 PM", "-", "-"),
     new Debate("Final Round", "-", "-", "Room ", "-", "-", "-"),
 ];
