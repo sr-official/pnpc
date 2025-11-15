@@ -349,3 +349,10 @@ body {
 .news-card a:hover {
     background: #003366;
 }
+
+/* footer */
+
+footer a{
+		text-decoration: none;
+		color: #0562be;
+}
